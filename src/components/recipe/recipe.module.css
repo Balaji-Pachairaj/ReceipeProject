@@ -1,0 +1,78 @@
+.wholeBox {
+     display: flex;
+     flex-direction: row;
+
+     animation: slide 1s;
+}
+.wholeElement1 {
+     width: 50%;
+}
+
+.wholeElement2 {
+     width: 50%;
+}
+
+.inputRecipe {
+     width: 80%;
+     height: 30rem;
+     padding: 1.3rem;
+}
+
+.stepsHandler {
+     width: 90%;
+     height: max-content;
+     background-color: "#B799FF";
+}
+
+.stepsInput {
+     width: 90%;
+     border-radius: 1rem;
+     margin-top: 2rem;
+
+     padding: 1rem;
+}
+
+.displaySteps {
+     width: 90%;
+     padding: 0.5rem;
+     margin-bottom: 5rem;
+     margin-top: 5%;
+}
+
+@media (max-width: 1000px) {
+     .wholeBox {
+          flex-direction: column;
+     }
+
+     .wholeElement1,
+     .wholeElement2 {
+          width: 100%;
+     }
+     .wholeElement2 {
+          width: 100%;
+          min-height: 15rem;
+          margin-top: 1.5rem;
+     }
+
+     .inputRecipe,
+     .displaySteps,
+     .stepsInput {
+          width: 70%;
+     }
+
+     .stepsHandler {
+          width: 70%;
+     }
+}
+
+@media screen and (max-width: 580px) {
+     .inputRecipe {
+          width: 95%;
+     }
+
+     .stepsHandler,
+     .displaySteps,
+     .stepsInput {
+          width: 95%;
+     }
+}

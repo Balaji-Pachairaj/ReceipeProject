@@ -1,0 +1,17 @@
+.card {
+     width: 24rem;
+     background-color: #bfccb5;
+
+     height: 18rem;
+}
+
+.stepsDisplay {
+     width: 80%;
+     padding: 1rem;
+}
+
+@media screen and (max-width: 580px) {
+     .stepsDisplay {
+          width: 95%;
+     }
+}

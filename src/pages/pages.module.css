@@ -1,0 +1,13 @@
+.signup {
+     width: 400px;
+     padding: 1rem;
+
+     background-color: rgb(143, 207, 229);
+
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -65%);
+
+     box-shadow: -2px 0px 70px 30px rgba(143, 207, 229, 0.479);
+}
