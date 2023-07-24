@@ -26,7 +26,7 @@ const Home = () => {
                     className=" shadow-lg p-5"
                >
                     <h1 class="text-center text-light mb-5 ">
-                         Cooking is an expression that crosses boundaries.
+                         Coooking is an expression that crosses boundaries.
                     </h1>
                     {!auth && (
                          <div className=" d-flex justify-content-center flex-lg-row flex-sm-row flex-wrap gap-4">
