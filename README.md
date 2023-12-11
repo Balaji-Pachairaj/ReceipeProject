@@ -1,3 +1,31 @@
+//---------------------------------
+Recipe🍪 React web-app (Responsive website)
+Link -> https://recipeapp-4971c.web.app/
+You can see other’s recipe and try it out.
+You can able to express your way making dishes and post it and other can view it
+The view count is able to everyone to see which recipe got large views
+This project enlighten me a lot of difficult coding concepts and I learned lot during the development of this recipe web.
+TECH STACK USED IN THIS PROJECT :
+FRONTEND STACK :
+Html
+Css – Bootstrap framework
+Javascript – REACTJS framework
+BACKEND – FIREBASE – storage of  user data and authentication process 
+.
+.
+.
+.
+...
+.
+.
+.
+..
+
+
+
+
+//-----------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
