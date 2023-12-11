@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import AddRecipes from "./pages/AddRecipes";
 import DynamicRecipe from "./pages/DynamicRecipe";
 import Error from "./pages/Error";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 const router = createBrowserRouter([
      {
           path: "/",
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
                },
                { path: "login", element: <Signup /> },
                { path: "addrecipe", element: <AddRecipes /> },
+               { path: "privacypolciy", element: <PrivacyPolicy /> },
           ],
      },
 ]);
